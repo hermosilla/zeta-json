@@ -7,7 +7,7 @@ Use JSON files to generate different types of output.
 Json Schema creation from json file. The new file will have the same name as the original but with the extension .schema.json.
 
 
-![feature X](images/zeta-vscode-json.png)
+![Imagen](images/zeta-vscode-json.png)
 
 
 **Enjoy!**
