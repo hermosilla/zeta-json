@@ -38,6 +38,10 @@
     "pretest": "npm run lint",
     "test": "node ./test/runTest.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hermosilla/vsc-zeta-json-tools.git"
+  },
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/mocha": "^7.0.2",
