@@ -2,7 +2,7 @@
   "name": "vsc-zeta-json-tools",
   "displayName": "Zeta Json",
   "description": "Zeta JSON Tools to Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Hermosilla",
   "engines": {
     "vscode": "^1.45.0"
@@ -46,12 +46,12 @@
     "@types/glob": "^7.1.1",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.11.0",
-    "@types/vsc": "^1.45.0",
+    "@types/vscode": "^1.44.0",
     "eslint": "^6.8.0",
     "glob": "^7.1.6",
     "mocha": "^7.1.1",
     "typescript": "^3.8.3",
-    "vsc-test": "^1.3.0"
+    "vscode-test": "^1.3.0"
   },
   "dependencies": {
     "to-json-schema": "^0.2.5",
