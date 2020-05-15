@@ -1,5 +1,5 @@
 {
-  "name": "vsc-zeta-json-tools",
+  "name": "zeta-json",
   "displayName": "Zeta Json",
   "description": "Zeta JSON Tools to Visual Studio Code",
   "version": "0.0.2",
@@ -12,7 +12,7 @@
   ],
   "icon": "images/zeta-vscode-json.png",
   "activationEvents": [
-    "onCommand:vsc-zeta-json-tools.toJsonSchema"
+    "onCommand:zeta-json.toJsonSchema"
   ],
   "main": "./src/extension.js",
   "contributes": {
@@ -20,15 +20,15 @@
       "explorer/context": [
         {
           "when": "resourceLangId == jsonc || resourceLangId == json",
-          "command": "vsc-zeta-json-tools.toJsonSchema",
-          "alt": "vsc-zeta-json-tools.toJsonSchema",
+          "command": "zeta-json.toJsonSchema",
+          "alt": "zeta-json.toJsonSchema",
           "group": "2_workspace"
         }
       ]
     },
     "commands": [
       {
-        "command": "vsc-zeta-json-tools.toJsonSchema",
+        "command": "zeta-json.toJsonSchema",
         "title": "z Create JSON Schema"
       }
     ]
