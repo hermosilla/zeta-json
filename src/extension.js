@@ -12,7 +12,7 @@ const toJsonSchema = require('./toJsonSchema');
  */
 function activate(context) {
 
-  let disposable = vscode.commands.registerCommand('vscode-zeta-json-tools.toJsonSchema', toJsonSchema);
+  let disposable = vscode.commands.registerCommand('zeta-json.toJsonSchema', toJsonSchema);
 
   context.subscriptions.push(disposable);
 }

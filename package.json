@@ -29,7 +29,7 @@
     "commands": [
       {
         "command": "zeta-json.toJsonSchema",
-        "title": "z Create JSON Schema"
+        "title": "z To JSON Schema"
       }
     ]
   },
