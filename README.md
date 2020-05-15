@@ -6,4 +6,6 @@ Use JSON files to generate different types of output.
 
 Json Schema creation from json file. The new file will have the same name as the original but with the extension .schema.json.
 
+![to Json Schema](images/zeta-json-toJsonSchema.gif)
+
 **Enjoy!**
